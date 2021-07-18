@@ -7,12 +7,20 @@ module.exports = {
       minWidth: {
         half: "50%",
         minimum: "35px",
+        24: "24px",
+        card: "calc(100%-128px)",
+        768: "768px",
+        16: "16.66667%",
       },
       minHeight: {
         minimum: "35px",
+        24: "24px",
       },
       maxWidth: {
         fourtimes: "400%",
+        8: "8rem",
+        540: "540px",
+        1440:"1440px",
       },
       borderRadius: {
         small: "50px",
@@ -21,6 +29,7 @@ module.exports = {
         greenheader: "#1e3932",
         bannercolor: "#d4e9e2",
         bannerlink: "#008248",
+        cardcolor: "#f3f1e7",
       },
       backgroundImage: {
         bannerImage:
@@ -31,6 +40,12 @@ module.exports = {
       },
       padding: {
         supermax: "133.33%",
+      },
+      margin: {
+        16: "16.66667%",
+      },
+      textColor: {
+        gold: "#cba258",
       },
     },
   },

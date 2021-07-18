@@ -1,10 +1,20 @@
-import DialogBox from "/home/meghansh/Desktop/new/starbucks/src/DialogBox.tsx";
+import Header from "./Components/Header";
+import Banner from "./Components/Banner";
+import DownContainer from "./Components/DownContainer";
+import Tabs from "./Components/Tabs";
+import DownContainer2 from "./Components/DownContainer2";
+import CardsTab from "./Components/CardsTab";
 
 function App() {
   return (
-  <>
-  <DialogBox />
-  </>
+    <>
+      <Header />
+      <Banner />
+      <DownContainer/>
+      {/* <Tabs/> */}
+      <DownContainer2/>
+      <CardsTab/>
+    </>
   );
 }
 
