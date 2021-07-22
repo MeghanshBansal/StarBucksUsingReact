@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        code: "0 0 0 2px rgb(185, 28, 28)",
+      },
       minWidth: {
         half: "50%",
         minimum: "35px",
