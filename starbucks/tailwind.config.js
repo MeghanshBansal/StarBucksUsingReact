@@ -22,6 +22,7 @@ module.exports = {
       maxWidth: {
         fourtimes: "400%",
         8: "8rem",
+        400: "400px",
         540: "540px",
         1440:"1440px",
       },
@@ -43,12 +44,16 @@ module.exports = {
       },
       padding: {
         supermax: "133.33%",
+        half: "50%",
       },
       margin: {
         16: "16.66667%",
       },
       textColor: {
         gold: "#cba258",
+      },
+      height: {
+        "2x": "200%",
       },
     },
   },
